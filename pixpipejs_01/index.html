@@ -38,13 +38,14 @@
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 652px;" data-block-id="5c037fad068aa4b982a838c1e71a9156"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 98%; color: rgb(136, 136, 136); line-height: 1.287;" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true" data-has-line-height="">
 <p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
-</div></div></section><section data-id="1bc9c18423dde12b2ba09c1c081f31b3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 78px; top: 210px; height: auto;" data-block-id="c3d0d7215bc055bb350e44370607b9f7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-gramm_id="f1b28233-89bd-37fb-d63e-6c2dace29a77" data-gramm="true" data-gramm_editor="true">
+</div></div></section><section data-id="1bc9c18423dde12b2ba09c1c081f31b3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 186px; height: auto;" data-block-id="c3d0d7215bc055bb350e44370607b9f7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(0, 169, 177);" data-gramm_id="f1b28233-89bd-37fb-d63e-6c2dace29a77" data-gramm="true" data-gramm_editor="true">
 <ul>
 	<li>What is it?</li>
 	<li>Motivations</li>
 	<li>Possible use cases</li>
 	<li>What's a pipeline?</li>
 	<li>Under the hood</li>
+	<li>More on Filters</li>
 	<li>The <em>pixp</em> format</li>
 	<li>Examples</li>
 	<li>TODOs</li>
@@ -52,7 +53,7 @@
 	<li>Ressources</li>
 </ul>
 </div></div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 283px; height: 79px; left: 339px; top: 84px;" data-block-id="280d0d31bcdd3224645de1268af88626"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 101px; left: 300px; top: 48px;" data-block-id="280d0d31bcdd3224645de1268af88626"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="5215ffcde5fb38e1942554b0243a91f3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
 </div></div></section><section data-id="7508299cb94bccf82e8f73cd6dfe0d2f">
@@ -189,7 +190,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 70px;" data-block-id="afa1caa6ccdbf5c95b2b33e2f28573a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(0, 169, 177); font-size: 130%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
 <p><span style="font-size:1.4em">Image2D</span></p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 839px; left: 61px; top: 263px;" data-block-id="cafdf06142b51bf8e1560bf55326bc99"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="3b352e8e-9849-4c47-de2c-fd82e9d3662d" data-gramm="true" data-gramm_editor="true">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 839px; left: 61px; top: 228px;" data-block-id="cafdf06142b51bf8e1560bf55326bc99"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="3b352e8e-9849-4c47-de2c-fd82e9d3662d" data-gramm="true" data-gramm_editor="true">
 <ul>
 	<li>Inherits from <span style="color:#008080"><strong><em>PixpipeContainer</em></strong></span>
 </li>
@@ -205,6 +206,7 @@
 	<li>Expendable to arbitrary multispectral</li>
 	<li>+ Metadata thanks to <span style="color:#008080"><strong><em>PixpipeObject</em></strong></span>
 </li>
+	<li><span style="text-align:left">Size, nb components, min/max, etc.  --&gt; metadata</span></li>
 </ul>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 148px;" data-block-id="604b18e0b86fc52cfbe273454a22977b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(0, 115, 120);" data-gramm_id="cabcd58e-ec65-c09e-be3b-b77488b11610" data-gramm="true" data-gramm_editor="true">
@@ -217,7 +219,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 70px;" data-block-id="f233c512e7dc2395c463393bf62d6b0e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(0, 169, 177); font-size: 130%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
 <p><span style="font-size:1.4em">Image3D</span></p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 839px; left: 61px; top: 237px;" data-block-id="eab26d111075d737328b4f6f3e38d94f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="3b352e8e-9849-4c47-de2c-fd82e9d3662d" data-gramm="true" data-gramm_editor="true">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 839px; left: 61px; top: 216px;" data-block-id="eab26d111075d737328b4f6f3e38d94f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="3b352e8e-9849-4c47-de2c-fd82e9d3662d" data-gramm="true" data-gramm_editor="true">
 <ul>
 	<li>Inherits from <span style="color:#008080"><strong><em>PixpipeContainer</em></strong></span>
 </li>
@@ -232,6 +234,9 @@
 	<li>Single channel or multispectral</li>
 	<li>Handles time series</li>
 	<li>+ Metadata thanks to <span style="color:#008080"><strong><em>PixpipeObject</em></strong></span>
+</li>
+	<li>
+<span style="text-align:left">Size, nb c</span><span style="text-align:left">omponents, min/max, etc.  --&gt; metadata</span>
 </li>
 </ul>
 </div></div>
@@ -265,7 +270,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 70px;" data-block-id="3cd0eea67c8aae5a57ed228565f06ad3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(0, 169, 177); font-size: 130%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
 <p><span style="font-size:1.4em">Filter</span></p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 839px; left: 61px; top: 210px;" data-block-id="517fd0de7cf8075f1c63c32662630dbe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 87%;" data-gramm_id="3b352e8e-9849-4c47-de2c-fd82e9d3662d" data-gramm="true" data-gramm_editor="true">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 839px; left: 61px; top: 201px;" data-block-id="517fd0de7cf8075f1c63c32662630dbe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 87%;" data-gramm_id="3b352e8e-9849-4c47-de2c-fd82e9d3662d" data-gramm="true" data-gramm_editor="true">
 <ul>
 	<li>Inherits from <span style="color:#008080"><strong><em>PixpipeObject</em></strong></span>
 </li>
@@ -285,7 +290,7 @@
 	</li>
 	<li>Simple launching method: <span style="color:#808080"><em>.update()</em></span>
 </li>
-	<li>Each I/O objects have an internal identifier</li>
+	<li>Each I/O objects have an internal identifier (chosen by the dev.)</li>
 	<li>Input integrity checking</li>
 	<li>Time measurement</li>
 	<li>Event manager (mainly for async behaviour)</li>
@@ -320,6 +325,145 @@
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 148px;" data-block-id="dc5063bb9d0539ab4882feaadfbef90c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(0, 115, 120);" data-gramm_id="cabcd58e-ec65-c09e-be3b-b77488b11610" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:27px">data processor + from 2D to 2D + generic</span></p>
+</div></div></section></section><section class="stack" data-id="7e2d8cf65b7a4367cceb1d6d5d175b9c"><section data-id="e43268acca21ede6a32d301879290256"><div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="94064f67f05382d6ee437be15f0a367f"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="02aed5d2f1a9ba29b0f3c37963c6ed94"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
+<p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 280px;" data-block-id="f67088d65ec53d3e42cdf4524c71f493"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(0, 169, 177); font-size: 180%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
+<p><span style="font-size:75.6px">More on Filters</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 42px; height: 25px; left: 459px; top: 395px;" data-block-id="e59ac564dc21c5cc062c3b7d364ab19b"><div class="sl-block-content" data-shape-type="triangle-down" data-shape-fill-color="rgb(255, 145, 213)" data-shape-stretch="true" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 42 25"><polygon points="0,0 42,0 21,25" class="shape-element" fill="rgb(255, 145, 213)"></polygon></svg></div></div></section><section data-id="c489fa223a0c7452eddbe02b4827a408"><div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="5deaabeb1c08eeb7a0feba2bf9fa886c"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="d04e74c74eda7834a5562d4d8e53dcda"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
+<p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 465px; height: 310px; left: 15px; top: 84px;" data-block-id="c68facb4e419973b8a080ee0a485082a"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="2023" data-natural-height="1350" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3885944/sd.jpg"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 509px; height: 340px; left: 436px; top: 290px;" data-block-id="bb7d601e5422da08d7ae9fc94d11545c"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="2023" data-natural-height="1350" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3885946/thresh.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 398px; left: 506px; top: 148px;" data-block-id="8343594d1aec7a84f7acec954e1de488"><div class="sl-block-style" style="z-index: 15; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 169, 177);" data-gramm_id="00de4cdd-9c97-ebd7-220a-2235d3fecbc6" data-gramm="true" data-gramm_editor="true">
+<p>Example: apply a threshold</p>
+</div></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 47px; height: 33px; left: 492px; top: 236px;" data-block-id="9adfea3d257bb7154426146c90839233"><div class="sl-block-style" style="z-index: 16; transform: rotate(39deg);"><div class="sl-block-content" data-shape-type="arrow-right" data-shape-fill-color="rgb(255, 145, 213)" data-shape-stretch="true" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 47 33"><polygon points="0,9.9 23.5,9.9 23.5,0 47,16.5 23.5,33 23.5,23.099999999999998 0,23.099999999999998" class="shape-element" fill="rgb(255, 145, 213)"></polygon></svg></div></div></div></section><section data-id="a64db5bf13ec96cbfe82da963ac045ee">
+<div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="c7150e2aa688e276b3a3bfd20491aecc"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="5bf89e00b712600f409fa3f350ee2b79"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
+<p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
+</div></div>
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 490px;" data-block-id="42c9e558ddc82aaca2dea78257b5eb9c"><div class="sl-block-content fragment current-visible" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; line-height: 0.702; color: rgb(68, 68, 68);" data-gramm_id="59ab9c32-1f34-73e4-5ad6-36498b90781d" data-gramm="true" data-gramm_editor="true" data-fragment-index="3" data-has-line-height="">
+<p>A filter is <strong>non-destructive</strong></p>
+
+<p>=</p>
+
+<p>myImage2D != myOtherImage2D</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 470px; height: 169px; left: 99px; top: 237px;" data-block-id="f7382a42589e94505ddfdcddbb944d49"><div class="sl-block-content fragment current-visible" style="z-index: 14;" data-fragment-index="1"><img data-natural-width="1266" data-natural-height="456" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3885806/filter0.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 762px; height: 170px; left: 99px; top: 236px;" data-block-id="1f71110add94224470f1019b89b54481"><div class="sl-block-content fragment current-visible" style="z-index: 15;" data-fragment-index="3"><img data-natural-width="2043" data-natural-height="456" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3885808/filter.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 484px; height: 170px; left: 99px; top: 237px;" data-block-id="6ef417c050996e8213db6e4d257dcc80"><div class="sl-block-content fragment current-visible" style="z-index: 16;" data-fragment-index="2"><img data-natural-width="1296" data-natural-height="456" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3885827/filter1.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 115px;" data-block-id="077a0e9ba9959f8d0ff6b3cec9cae3ca"><div class="sl-block-style" style="z-index: 17;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; color: rgb(0, 169, 177); font-size: 130%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
+<p><span style="text-align:left">Filters from the the main scope</span></p>
+</div></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 484px; height: 115px; left: 99px; top: 292px;" data-block-id="fe6a97b61250fb5c0089054520623a2b"><div class="sl-block-content fragment current-visible" style="z-index: 18;" data-fragment-index="0"><img data-natural-width="1287" data-natural-height="306" data-pin-nopin="true" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3885966/filter00.png"></div></div></section><section data-id="9197eaaf1169965cec83f3ec4f255c06">
+<div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="a1a3da5899dc0d2b2f049d514d4af560"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="c48dc066a1722bcc2486c277a80b4131"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
+<p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
+</div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 115px;" data-block-id="90774d389134708f0ff3859ddc451559"><div class="sl-block-style" style="z-index: 13;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(0, 169, 177); font-size: 130%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
+<p><span style="text-align:left">Filters from the the main scope</span></p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 165px;" data-block-id="ac09d302ab4288a137b6c99bcdb96c49"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(0, 169, 177);" data-gramm_id="725df70e-4f48-3c5d-b5d5-a449d7095dd4" data-gramm="true" data-gramm_editor="true">
+<p>(code)</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 625px; height: 393px; left: 168px; top: 237px;" data-block-id="5016d831728b929d7965ac2d25c96a70"><div class="sl-block-content" style="z-index: 15;"><pre class="javascript"><code>// let's create an orange image of size 100x50
+var myImage = new pixpipe.Image2D({
+    width: 100,
+    height: 50,
+    color: [255, 128, 64, 255]
+});
+
+// instantiation of the thresholding filter
+var thresholder = new pixpipe.SimpleThresholdFilter();
+
+// feeding the filter with the image
+thresholder.addInput( myImage );
+
+// launching the filter
+thresholder.update();
+
+// getting the image created by the filter
+var myOtherImage = thresholder.getOutput();</code></pre></div></div></section><section data-id="c5f16a5ad332163a9b0392040861d9bf">
+<div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="befd7f0716820f2db3ccb403966108b6"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="7e2a19d7a8585e26a1cf3d4e731ee450"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
+<p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
+</div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 115px;" data-block-id="305a6c13c49fddbeba0fcdaa9e4c3d24"><div class="sl-block-style" style="z-index: 12;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(0, 169, 177); font-size: 130%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
+<p>What about metadata?</p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 165px;" data-block-id="de3fc8ac1b5ce66d9ef0f303fb3d118b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(0, 169, 177);" data-gramm_id="725df70e-4f48-3c5d-b5d5-a449d7095dd4" data-gramm="true" data-gramm_editor="true">
+<p>(code)</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 625px; height: 428px; left: 168px; top: 218px;" data-block-id="3bd767189a0a84e2e2b726a6e3914b09"><div class="sl-block-content" style="z-index: 14;"><pre class="javascript"><code>// let's create an orange image of size 100x50
+var myImage = new pixpipe.Image2D({
+    width: 100,
+    height: 50,
+    color: [255, 128, 64, 255]
+});
+
+// instantiation of the thresholding filter
+var thresholder = new pixpipe.SimpleThresholdFilter();
+
+// define a lower threshold: 100 (default: 128)
+thresholder.setMetadata("threshold", 100);
+
+// feeding the filter with the image
+thresholder.addInput( myImage );
+
+// launching the filter
+thresholder.update();
+
+// getting the image created by the filter
+var myOtherImage = thresholder.getOutput();</code></pre></div></div></section><section data-id="8b8b8078d5ce5d4fe99f0887a8b31d3e">
+<div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="d2aff2ebaa18814ffdb7868b6bffc68b"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="5bba0bf50b974ebf9b54be06cb45de86"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
+<p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 70px;" data-block-id="a337e621d5c237add9767249910331e9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(0, 169, 177); font-size: 130%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
+<p><span style="font-size:1.4em">Different kinds of filters</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 839px; left: 68px; top: 245px;" data-block-id="d146dad1fcbdeb4a84cd9eee050378cd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-gramm_id="3b352e8e-9849-4c47-de2c-fd82e9d3662d" data-gramm="true" data-gramm_editor="true">
+<ul>
+	<li>Image processing filters <span style="color:#FF8C00">[i]</span><span style="color:#EE82EE">[o]</span><span style="color:#008000">[m]</span>
+</li>
+	<li>Decoders<span style="text-align:left"> <span style="color:rgb(255, 140, 0)">[i]</span></span><span style="color:rgb(238, 130, 238); text-align:left">[o]</span><span style="color:rgb(0, 128, 0); text-align:left">[m]</span>
+</li>
+	<li>Helpers<span style="text-align:left"> </span><span style="color:rgb(255, 140, 0)"><span style="text-align:left">[i]</span></span><span style="color:rgb(238, 130, 238); text-align:left">[o]</span><span style="color:rgb(0, 128, 0); text-align:left">[m]</span>
+</li>
+	<li>Readers from File or URL<span style="text-align:left"> </span><span style="color:rgb(238, 130, 238); text-align:left">[o]</span><span style="color:rgb(0, 128, 0); text-align:left">[m]</span>
+</li>
+	<li>Writers (to file or Canvas)<span style="text-align:left"> <span style="color:#FF8C00">[i]</span></span><span style="color:rgb(0, 128, 0); text-align:left">[m]</span>
+</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 153px;" data-block-id="eb08c38fe0edb39fc1f52942ce3f5497"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 169, 177); font-size: 63%; line-height: 1.339;" data-gramm_id="cabcd58e-ec65-c09e-be3b-b77488b11610" data-gramm="true" data-gramm_editor="true" data-has-line-height="">
+<p><span style="font-size:1.0em">for doing different kinds of things</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 401px; left: 287px; top: 476px;" data-block-id="e6fc68d74d1c3e070823f6416514f85a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; text-align: left;">
+<p><span style="color:rgb(255, 140, 0); text-align:left">[i] accepts input(s)</span></p>
+
+<p><span style="color:rgb(238, 130, 238); text-align:left">[o] gives output(s)</span></p>
+
+<p><span style="color:rgb(0, 128, 0); text-align:left">[m] Settings with metadata</span></p>
 </div></div></section></section><section class="stack" data-id="774d85cb5cc080e65abf0158371f67b9"><section data-id="31c3d87a81250ef1d60518df9d58d53b">
 <div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="b826177574ea7d5ae3e5447e8dc52851"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="25c4dcabc94261bf0a47232d23e43b8d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
@@ -328,7 +472,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 280px;" data-block-id="55efcfcc5e63057b2b108e67d9e1cf45"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(0, 169, 177); font-size: 180%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
 <p><span style="font-size:1.4em">The *.<em>pixp</em> format</span></p>
 </div></div>
-</section><section data-id="5a554eb0668380f9735139c4b47e6b49">
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 42px; height: 25px; left: 459px; top: 395px;" data-block-id="82905719b891345998a1888574bc9c02"><div class="sl-block-content" data-shape-type="triangle-down" data-shape-fill-color="rgb(255, 145, 213)" data-shape-stretch="true" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 42 25"><polygon points="0,0 42,0 21,25" class="shape-element" fill="rgb(255, 145, 213)"></polygon></svg></div></div></section><section data-id="5a554eb0668380f9735139c4b47e6b49">
 <div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="e954e82fb49ca89f53de2eda027379b0"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="e5cd11768a26eba978137201bc1e49aa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
@@ -447,10 +591,11 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 70px;" data-block-id="a5e3dd8c0b16eecc219d5543b617c070"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(136, 136, 136); font-size: 64%;" data-gramm_id="9cb1ff72-5871-caf6-aee5-0399f5baacb4" data-gramm="true" data-gramm_editor="true" dir="ui">
 <p><span style="font-size:26.88px">Examples</span></p>
 </div></div>
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 936px; height: 346px; left: 12px; top: 228px;" data-block-id="b0c2341549ab1090cb17c9532ded4955"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="2500" data-natural-height="924" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3878023/texture3D_pipeline.png"></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 611px;" data-block-id="34849e77d4ce782c1c6808719439a5c9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 611px;" data-block-id="34849e77d4ce782c1c6808719439a5c9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
 <p><a href="http://me.jonathanlurie.fr/slides/pixpipejs_01/images/176_256_256_zspace_23x12.jpg" target="_blank">&gt; See what is a mosaic &lt; </a></p>
-</div></div></section><section data-id="c6be8f74df9c852f2a4f2ad388baf8f1">
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 947px; height: 350px; left: 7px; top: 210px;" data-block-id="82d3f729a2a40a0c2d3d60daf6300b8d"><div class="sl-block-content" style="z-index: 16;"><img data-natural-width="2500" data-natural-height="924" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3885751/texture3D_pipeline.png"></div></div></section><section data-id="c6be8f74df9c852f2a4f2ad388baf8f1">
 <div class="sl-block" data-block-type="image" style="width: 142px; height: 40px; left: 409px; top: 7px;" data-block-id="8b818a5ebbf59d43c41b37e427a18c51"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="780" data-natural-height="219" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/721019/images/3877049/pixpipe.png"></div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 670px;" data-block-id="bf27f652390ad53aad12dbd9f8461f39"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 63%; color: rgb(136, 136, 136);" data-gramm_id="d5c98402-d878-50a6-6589-8eab9a1fbc0e" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:0.7em"><a href="http://me.jonathanlurie.fr/" target="_blank">Jonathan Lurie</a> - <a href="http://mcin-cnim.ca/" target="_blank">MCIN</a> - June 2017</span></p>
@@ -476,9 +621,9 @@
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 839px; left: 106px; top: 246px;" data-block-id="6911afed973940f558097c33e73efd1d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="3b352e8e-9849-4c47-de2c-fd82e9d3662d" data-gramm="true" data-gramm_editor="true">
 <ul>
-	<li>Fourier transform (2D)</li>
+	<li>Fourier and <span style="text-align:left">wavelet </span>transforms -&gt; frequency domain</li>
 	<li>Interpolation and resampling (2D/3D)</li>
-	<li>Crop (2D/3D)</li>
+	<li>Croping (2D/3D)</li>
 	<li>Integrate vector datastructure: (in progress)
 	<ul>
 		<li>points, lines, polylines, poligons</li>
@@ -517,6 +662,7 @@
 <ul>
 	<li><a href="https://github.com/jonathanlurie/pixpipejs" target="_blank">The repo on Github</a></li>
 	<li><a href="https://github.com/jonathanlurie/pixpipejs/blob/master/cookbook/readme.md" target="_blank">The cookbook</a></li>
+	<li><a href="http://me.jonathanlurie.fr/pixpipejs/doc/" target="_blank">The doc</a></li>
 	<li>Dependencies' repos
 	<ul>
 		<li>
@@ -549,7 +695,7 @@
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":721019,"username":"jonathanlurie","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/3d8e69c28886f9c9f7ed6ba6797d805b?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":570863,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null},"email":"lurie.jo@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1,"storage_used":707702,"storage_limit":262144000},"deck":{"id":1019277,"slug":"pixpipejs","title":"Pixpipejs","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-06-05T15:31:51.116Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/96c72f54b790dcaa87e1b3400a18db07/thumb.jpg?485718175","view_count":2,"user":{"id":721019,"username":"jonathanlurie","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/3d8e69c28886f9c9f7ed6ba6797d805b?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":570863,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"merriweather","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":true,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1496756878792,"font_typekit":null,"font_google":null,"notes":{}}};
+	var SLConfig = {"current_user":{"id":721019,"username":"jonathanlurie","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/3d8e69c28886f9c9f7ed6ba6797d805b?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":570863,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null},"email":"lurie.jo@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1,"storage_used":4296649,"storage_limit":262144000},"deck":{"id":1019277,"slug":"pixpipejs","title":"Pixpipejs","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-06-05T15:31:51.116Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/96c72f54b790dcaa87e1b3400a18db07/thumb.jpg?485718175","view_count":2,"user":{"id":721019,"username":"jonathanlurie","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/3d8e69c28886f9c9f7ed6ba6797d805b?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":570863,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"merriweather","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":true,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1496869342032,"font_typekit":null,"font_google":null,"notes":{}}};
 </script>
 
 		<script>
